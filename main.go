@@ -24,8 +24,7 @@ func main() {
 			zip:   1000,
 		},
 	}
-	jimPointer := &jim
-	jimPointer.updateName("Jimmy")
+	jim.updateName("Jimmy")
 	jim.print()
 }
 
